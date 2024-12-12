@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Newsletter - Eladio Carrión</title>
+</head>
+<body>
+    <header>
+        <h1>Newsletter</h1>
+        <table border="1" width="100%">
+            <tr>
+                <td><a href="index.html">Inicio</a></td>
+                <td><a href="discografia.html">Discografía</a></td>
+                <td><a href="newsletter.html">Newsletter</a></td>
+            </tr>
+        </table>
+    </header>
+    <main>
+        <section>
+            <h2>Inscripción a la Newsletter</h2>
+            <form action="/subscribe" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required><br>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required><br>
+
+                <label for="pais">País:</label>
+                <input type="text" id="pais" name="pais" required><br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="intereses">Intereses:</label>
+                <textarea id="intereses" name="intereses" rows="4" cols="50"></textarea><br>
+
+                <input type="submit" value="Suscribirse">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
